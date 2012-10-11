@@ -1,4 +1,4 @@
 JettyQuickStart
 ===============
 
-A template to build jetty aplications
+A template to build embedded jetty aplications
