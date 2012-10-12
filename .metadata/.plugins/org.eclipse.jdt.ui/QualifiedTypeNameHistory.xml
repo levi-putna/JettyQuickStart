@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.eclipse.jetty.servlet.ServletContextHandler"/>
+<fullyQualifiedTypeName name="org.eclipse.jetty.webapp.WebAppContext"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletException"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="au.com.ozblog.server.JettyServer"/>
+<fullyQualifiedTypeName name="au.com.ozblog.server.AppContextBuilder"/>
+<fullyQualifiedTypeName name="au.com.ozblog.server.ServerRunner"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="javax.persistence.Id"/>
+<fullyQualifiedTypeName name="au.com.ozblog.Person"/>
+</qualifiedTypeNameHistroy>

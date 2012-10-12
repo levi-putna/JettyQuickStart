@@ -1,0 +1,27 @@
+package au.com.ozblog;
+
+import java.awt.EventQueue;
+
+import org.eclipse.jetty.server.Handler;
+import org.eclipse.jetty.server.handler.ContextHandlerCollection;
+
+import au.com.ozblog.server.AppContextBuilder;
+import au.com.ozblog.server.JettyServer;
+import au.com.ozblog.server.ServerRunner;
+
+public class App {
+	public static void main(String[] args) {
+		ContextHandlerCollection contexts = new ContextHandlerCollection();
+
+		contexts.setHandlers(new Handler[] {});
+
+		final JettyServer jettyServer = new JettyServer();
+		jettyServer.setHandler(AppContextBuilder.buildWebAppContext());
+		Runnable runner = new Runnable() {
+			public void run() {
+				new ServerRunner(jettyServer);
+			}
+		};
+		EventQueue.invokeLater(runner);
+	}
+}

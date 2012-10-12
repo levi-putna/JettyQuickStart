@@ -1,0 +1,3 @@
+INDEX VERSION 1.126
+/Users/levip/Development/Jetty/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/279490561.index
+/jetty-quickstart/src/main/java
